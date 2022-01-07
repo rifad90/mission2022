@@ -1,0 +1,126 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: white;
+}
+h1{
+    font-size: 50px;
+    
+}
+h1 span{
+    color:blueviolet;
+}
+h2{
+    font-size: 40px;
+}
+.heading-center{
+    text-align: center;
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 150px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.focus-title{
+    border-left: 7px solid;
+    border-image: linear-gradient(purple, tomato);
+    border-image-slice: 1;
+}
+.focus-title h1{
+    margin-left: 5px;
+}
+.focus-title span{
+    color:blueviolet;
+}
+.btn{
+    background-color: darkorchid;
+    padding: 20px 40px;
+    color: white;
+    font-weight: 800;
+    border-radius: 5px;
+}
+.half-width img{
+    margin-top: 20px;
+    width: 70%;
+}
+.flexible-container-my-mission{
+    display: flex;
+    margin-left:100px;
+    margin-right: 100px;
+    margin-bottom: 150px;
+}
+.my-mission-child1{
+    width: 30%;
+    padding-left:10px;
+    padding-bottom: 50px;
+    background-color: #FFE5CC;
+    border-radius: 10px;
+    margin: 10px;
+}
+.my-mission-child2{
+    width: 30%;
+    padding-left:10px;
+    padding-bottom: 50px;
+    background-color:#CCFFCC;
+    border-radius: 10px;
+    margin: 10px;
+}
+.my-mission-child3{
+    width: 30%;
+    padding-left:10px;
+    padding-bottom: 50px;
+    background-color: #FFCCE5;
+    border-radius: 10px;
+    margin: 10px;
+}
+.flexible-container-my-mission img{
+    width: 100px;    
+}
+.sec-develop{   
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+.img-div{
+    width: 40%;
+    margin-left: 100px;
+    margin-bottom: 100px; 
+    margin-top: -70px;   
+}
+.img-div img{
+    width: 80%;
+}
+.develop-inner{
+    width: 60%;
+    margin-top: -90px;
+    padding-right: 100px;
+}
+.sec-global-comm{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.global-comm-inner{
+    width: 60%;
+    margin-top: -70px;
+    padding-right: 100px; 
+}
+.bg-develop{
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    position: left;
+}
+.bg-global-comm{
+    background-image: url(img/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    position: right;
+}
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
